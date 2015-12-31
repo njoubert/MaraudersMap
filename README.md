@@ -13,7 +13,7 @@ Bushwack is:
 - A completely homogenous, decentralized position reporting system.
 - A mesh network for sharing locations of people and points-of-interest.
 - A small, cheap (<$50 hopefully!) handheld device.
-- 
+
 
 ## SRR (System Requirements Review)
 
