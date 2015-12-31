@@ -86,7 +86,11 @@ Each unit has:
 <br/>
 ## Resources and Inspiration
 
-**Design Inspiration:**
+**System Design Inspiration:**
+
+[Wolfgang Klerk's Arduino and Raspberry Pi Projects](https://wolfgangklenk.wordpress.com/)
+
+**Product Design Inspiration:**
 
 [Teenage Engineering's PO-16 synth](https://www.teenageengineering.com/products/po)
 
