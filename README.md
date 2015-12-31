@@ -2,11 +2,13 @@
 
 ```WELCOME! THIS IS AN EXPERIMENTAL, UNTESTED, IN-PROGRESS PRE-ALPHA PROJECT! THAT BE DRAGONS AHEAD YET LADDY!```
 
-## MCR (Mission Concept Review)
+## MCR - Mission Concept Review
 
 *What is the need, objectives and concept for meeting said objectives?*
 
-This project aims to build a self-contained person tracker and locator for use in venues such as Burning Man. 
+At large outdoor venues, such as Burning Man, it is easy to lose your friends, and difficult to locate them again. Often this is a *good* thing since it leads to serendipidous adventures and a forced relaxation of scheduling stress. Often, though, it's a source of stress and frustration. 
+
+This project aims to build a cheap, self-contained person locator.  
 
 Bushwack is:
 
@@ -15,7 +17,7 @@ Bushwack is:
 - A small, cheap (<$50 hopefully!) handheld device.
 
 
-## SRR (System Requirements Review)
+## SRR - System Requirements Review
 
 *What is the functional and performance requirements for the system?*
 
@@ -35,9 +37,12 @@ Each unit has:
 **Mesh Network:**
 
 - Data
-- 
 
-## SDR (System Design Review)
+## SDR - System Design Review
 
 *What is the proposed system architecture and design, and the flow of data through the system?*
 
+
+## Resources:
+
+[Design Review Cycle](https://en.wikipedia.org/wiki/Design_review_(U.S._government)#System_Requirements_Review_.28SRR.29)
