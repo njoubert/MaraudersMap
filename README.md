@@ -2,6 +2,7 @@
 
 ```WELCOME! THIS IS AN EXPERIMENTAL, UNTESTED, IN-PROGRESS PRE-ALPHA PROJECT! THAT BE DRAGONS AHEAD YET LADDY!```
 
+<br/><br/>
 ## MCR - Mission Concept Review
 
 *What is the need, objectives and concept for meeting said objectives?*
@@ -16,7 +17,7 @@ Bushwack is:
 - A mesh network for sharing locations of people and points-of-interest.
 - A small, cheap (<$50 hopefully!) handheld device.
 
-
+<br/><br/>
 ## SRR - System Requirements Review
 
 *What is the functional and performance requirements for the system?*
@@ -38,11 +39,12 @@ Each unit has:
 
 - Data
 
+<br/><br/>
 ## SDR - System Design Review
 
 *What is the proposed system architecture and design, and the flow of data through the system?*
 
-
+<br/><br/>
 ## Resources:
 
 [Design Review Cycle](https://en.wikipedia.org/wiki/Design_review_(U.S._government)#System_Requirements_Review_.28SRR.29)
