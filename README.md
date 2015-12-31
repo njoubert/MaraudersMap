@@ -11,16 +11,24 @@ At large outdoor venues, such as Burning Man, it is easy to lose your friends, a
 
 This project aims to build a cheap, self-contained person locator.  
 
-Bushwack is:
-
-- A completely homogenous, decentralized position reporting system.
-- A mesh network for sharing locations of people and points-of-interest.
-- A small, cheap (<$50 hopefully!) handheld device.
-
 <br/>
 ## SRR - System Requirements Review
 
 *What is the functional and performance requirements for the system?*
+
+Bushwack needs to be:
+
+- A completely homogenous, decentralized position reporting system.
+- A mesh network where the typical communication scheme is NOT all-to-all, but might be.
+- Stand-alone, with no dependency on wifi or cell signals.
+- A small, cheap (ideally <$50) handheld device.
+- Weather-resistant in dusty and extreme temperature environments.
+- Resilient to power-cycling
+
+<br/>
+## SDR - System Design Review
+
+*What is the proposed system architecture and design, and the flow of data through the system?*
 
 **Hardware:**
 
@@ -38,11 +46,6 @@ Each unit has:
 **Mesh Network:**
 
 - Data
-
-<br/>
-## SDR - System Design Review
-
-*What is the proposed system architecture and design, and the flow of data through the system?*
 
 <br/>
 ## Resources:
