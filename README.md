@@ -30,6 +30,7 @@ Bushwack needs to be:
 - Weather-resistant in dusty and extreme temperature environments.
 - Resilient to power-cycling
 - Support 20 to 50 people.
+- Be as passive as possible: don't interfere with people's burn, it's not a cellphone.
 
 <br/>
 ## SDR - System Design Review
@@ -74,6 +75,13 @@ Each unit has:
 - Price: $15
 - SSD1306 SPI controller
 - 8 lines of text, 22 characters wide (176 characters total)
+
+**CC1101 Radio Modem**
+
+
+
+**Battery Power**
+
 
 <br/>
 ## Resources:
