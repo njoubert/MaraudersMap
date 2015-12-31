@@ -98,3 +98,11 @@ Each unit has:
 **Other Resources:**
 
 [Design Review Cycle](https://en.wikipedia.org/wiki/Design_review_(U.S._government)#System_Requirements_Review_.28SRR.29)
+
+
+<br/>
+## Discarded System Designs (Dead Kittens)
+
+**APRS-based system**
+
+APRS radios are to expensive, too clunky, power hungry, and way too slow (<1kbps). Building my own from scratch is painful. 
