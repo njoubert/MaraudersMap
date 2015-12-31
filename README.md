@@ -88,7 +88,8 @@ Each unit has:
 
 **System Design Inspiration:**
 
-[Wolfgang Klerk's Arduino and Raspberry Pi Projects](https://wolfgangklenk.wordpress.com/)
+[Wolfgang Klerk's Arduino and Raspberry Pi Projects](https://wolfgangklenk.wordpress.com/) and his [SPI protocol driver for TI CC11001](https://github.com/wklenk/CC1101SocketDriver)
+
 
 **Product Design Inspiration:**
 
