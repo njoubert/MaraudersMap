@@ -78,6 +78,29 @@ Each unit has:
 
 **CC1101 Radio Modem**
 
+**GPS Module**
+
+[NavSpark-GL GPS/GLONASS Dev Board](https://navspark.mybigcommerce.com/navspark-gl-arduino-compatible-development-board-with-gps-glonass/)
+
+- Price: $25 + $9 antenna = $34
+- Arduino-compatible, hackable
+- Very sensitive, GPS, GLONASS, SBAS, QZSS for amazing coverage, Venus 8 167 channel engine, 10Hz update, 2.5m CEP accuracy 
+- 38mm x 18mm
+- Serial and Serial-Over-USB IO
+
+[AdaFruit Ultimate GPS Module](https://www.adafruit.com/products/746)
+
+- Price: $40
+- 15mm x 15mm x 4mm with patch antenna
+- Built-in datalogging to flash memory
+- Serial out
+ 
+[UBlox Neo6 GPS Module on eBay](http://www.ebay.com/itm/Ublox-NEO-6M-GPS-Module-Aircraft-Flight-Controller-For-Arduino-MWC-IMU-APM2-/200911914297?hash=item2ec7488539:g:s7IAAOSwYHxWFgLf)
+
+[uBlox Neo6M with Compass on eBay](http://www.ebay.com/itm/Ublox-neo-6M-GPS-Module-W-box-Built-in-Compass-for-PIX-Pixhawk-PX4-Autopilo-New-/281835342531?hash=item419eb20ac3:g:czYAAOSw~gRV0tSn)
+
+- Price: $11 to $17
+- 9600 baud serial out
 
 
 **Battery Power**
