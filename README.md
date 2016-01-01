@@ -9,10 +9,13 @@
 
 At large outdoor venues, such as Burning Man or ski resorts, it is easy to lose your friends, and difficult to locate them again. Often this is a *good* thing since it leads to serendipidous adventures and a forced relaxation of scheduling stress. Often, though, it's a source of stress and frustration. 
 
-This project aims to build a cheap, self-contained person locator:
+This project aims to make it possible to find your friends, while staying true to the principles of immediacy, serendipitously meeting people, and going on adventures together! 
 
-- to help you find your friends
-- to share points of interest
+This project consists of a cheap, self-contained person locator to help you find your friends and share points of interest. But it doesn't make it too easy!
+
+- Everyone only gets a very limited set of points they can save - so everyone has their own Top 5 places!
+- We only provide an approximate distance and direction to a friend, so it's an adventure to try and find them!
+- The system might sometimes lie to you, who knows?
 
 *Note: in many ways this revisits the ideas that originally went into my iPhone app Burble*
 
