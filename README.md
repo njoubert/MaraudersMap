@@ -17,7 +17,11 @@ This project consists of a cheap, self-contained person locator to help you find
 - We only provide an approximate distance and direction to a friend, so it's an adventure to try and find them!
 - The system might sometimes lie to you, who knows?
 
-*Note: in many ways this revisits the ideas that originally went into my iPhone app Burble*
+*Note: in many ways this revisits the ideas that originally went into my iPhone app [Burble](https://github.com/njoubert/UndergraduateProjects/tree/master/Burble/trunk)*
+
+**Other Ideas**
+
+- This project can include a visual component - by animating EL wire or the like as you get closer to a friend!
 
 <br/>
 ## SRR - System Requirements Review
