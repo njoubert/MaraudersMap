@@ -75,14 +75,22 @@ Each unit has:
 - Tiny: 65mm x 30mm x 5mm, 9g
 - [Good Peripherals](http://elinux.org/RPi_Low-level_peripherals): [SPI Bus](https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md), two I2C buses, a Display Serial Interface connector, and HDMI out
 
-**OLED Display with Buttons**
+**Displays**
 
-[128x64 yellow and blue](http://www.amazon.com/gp/product/B00O2LLT30?keywords=arduino%20oled&qid=1451557496&ref_=sr_1_1&sr=8-1):
+[OLED: 128x64 yellow and blue 0.96"](http://www.amazon.com/gp/product/B00O2LLT30?keywords=arduino%20oled&qid=1451557496&ref_=sr_1_1&sr=8-1):
 
 - Price: $15
 - SSD1306 SPI controller
 - 8 lines of text, 22 characters wide (176 characters total)
 
+[TFT: 160x128 full-color 1.8"](https://www.adafruit.com/products/358)
+
+- Price: $20
+- SPI
+
+[LCD: Monochrome Nokia Display 84x48](https://www.adafruit.com/products/338)
+
+- Price: $10
 **CC1101 Radio Modem**
 
 **GPS Module**
