@@ -143,4 +143,4 @@ Each unit has:
 
 **APRS-based system**
 
-APRS radios are to expensive, too clunky, power hungry, and way too slow (<1kbps). Building my own from scratch is painful. 
+APRS radios are to expensive, too clunky, power hungry, and way too slow (<1kbps). Building my own from scratch is painful. APRS is also a notoriously inefficient use of spectrum: we should be able to push significantly higher throughput at the same power and range without using more spectrum.
