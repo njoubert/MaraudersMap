@@ -49,21 +49,21 @@ Bushwack needs to be:
 Each unit has:
 
 - Sensors:
-- - a GPS for positioning
-- - a compass for orientation
+  - a GPS for positioning
+  - a compass for orientation
 - User Interface:
-- - a small OLED screen for information display
-- - a few buttons for interaction
+  - a small OLED screen for information display
+  - a few buttons for interaction
 - Power
-- - a rechargeable battery (most likely LiPo or Li-Ion)
-- - a battery charging circuit
-- - a power regulator and battery protection circuit
+  - a rechargeable battery (most likely LiPo or Li-Ion)
+  - a battery charging circuit
+  - a power regulator and battery protection circuit
 - Radio
-- - long range (ideally 1.5 miles to cover entire Black Rock City diameter)
-- - doesn't depend on pairing with another device (support one-to-many broadcast)
-- - license-free spectrum
-- - ~5kbps data rates
-- - reasonable latency (<1s)
+  - long range (ideally 1.5 miles to cover entire Black Rock City diameter)
+  - doesn't depend on pairing with another device (support one-to-many broadcast)
+  - license-free spectrum
+  - ~5kbps data rates
+  - reasonable latency (<1s)
 
 #### Suggested System Architecture
 
