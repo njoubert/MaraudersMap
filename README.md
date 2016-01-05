@@ -93,6 +93,8 @@ Each unit has:
 [LCD: Monochrome Nokia Display 84x48](https://www.adafruit.com/products/338)
 
 - Price: $10
+ 
+
 **CC1101 Radio Modem**
 
 **GPS Module**
