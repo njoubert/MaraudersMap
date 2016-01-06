@@ -100,9 +100,10 @@ Each unit has:
 
 -
 
-[LoRa Modems]()
+[LoRa Modems: Semtech SX1272 and SX1276]()
 
--
+- This uses a spread spectrum technique to significantly increase sensitivity (like GPS!)
+
 
 [WirelessThings ARF](https://www.wirelessthings.net/arf-high-power-radio-transceiver)
 
