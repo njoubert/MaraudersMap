@@ -122,11 +122,12 @@ Each unit has:
 
 [CC1101]/[CC1110](http://www.ti.com/tool/cc1110emk868-915)/[CS1111]() Radio Modem
 
--
+
 
 [LoRa Modems: Semtech SX1272 and SX1276]()
 
 - This uses a spread spectrum technique to significantly increase sensitivity (like GPS!)
+- Price: $16 for [SX1278 board (433MHz)](https://www.tindie.com/products/DORJI_COM/long-range-semtech-lora-sx1276-sx1278-data-radio-modem-drf1278dm/)  or [SX1276 board (915MHz)](https://www.tindie.com/products/DORJI_COM/868mhz-lora-sx1276-data-radio-modem-drf1276dm/)
 
 
 [WirelessThings ARF](https://www.wirelessthings.net/arf-high-power-radio-transceiver)
