@@ -94,8 +94,21 @@ Each unit has:
 
 - Price: $10
  
+**Radio Modem**
 
-**CC1101 Radio Modem**
+[CC1101]/[CC1110](http://www.ti.com/tool/cc1110emk868-915)/[CS1111]() Radio Modem
+
+-
+
+[LoRa Modems]()
+
+-
+
+[WirelessThings ARF](https://www.wirelessthings.net/arf-high-power-radio-transceiver)
+
+- Price: $45
+- CC1111 Radio Model Chip with LNA
+- Claims tens of kilometers of range
 
 **GPS Module**
 
@@ -124,6 +137,7 @@ Each unit has:
 
 **Battery Power**
 
+**Solar Power**
 
 <br/>
 ## Resources and Inspiration
@@ -132,6 +146,7 @@ Each unit has:
 
 [Wolfgang Klerk's Arduino and Raspberry Pi Projects](https://wolfgangklenk.wordpress.com/) and his [SPI protocol driver for TI CC11001](https://github.com/wklenk/CC1101SocketDriver)
 
+[Henry Hellam and co.'s Girl Tech IM-ME Hack for a previous Burn](https://github.com/henryhallam/puellaardens)
 
 **Product Design Inspiration:**
 
