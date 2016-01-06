@@ -2,8 +2,14 @@
 
 ```WELCOME! THIS IS AN EXPERIMENTAL, UNTESTED, IN-PROGRESS PRE-ALPHA PROJECT! THAT BE DRAGONS AHEAD YET LADDY!```
 
+
+
+
 <br/>
 ## MCR - Mission Concept Review
+
+
+
 
 *What is the need, objectives and concept for meeting said objectives?*
 
@@ -25,8 +31,14 @@ This project consists of a cheap, self-contained person locator to help you find
 - **Lying?** - What if the system only gives you a true value part of the time? What if it deliberately lies?
 - **Only works part of the time?** - What if you can't always use the system, you have to wait for it to become active?
 
+
+
+
 <br/>
 ## SRR - System Requirements Review
+
+
+
 
 *What is the functional and performance requirements for the system?*
 
@@ -41,8 +53,14 @@ Bushwack needs to be:
 - Support 20 to 50 people.
 - Be as passive as possible: don't interfere with people's burn, it's not a cellphone.
 
+
+
+
 <br/>
 ## SDR - System Design Review
+
+
+
 
 *What is the proposed system architecture and design, and the flow of data through the system?*
 
@@ -65,7 +83,13 @@ Each unit has:
   - ~5kbps data rates
   - reasonable latency (<1s)
 
+
+
+
 #### Suggested System Architecture
+
+
+
 
 **Raspberry Pi Zero as command center.**
 
@@ -140,8 +164,14 @@ Each unit has:
 
 **Solar Power**
 
+
+
+
 <br/>
 ## Resources and Inspiration
+
+
+
 
 **System Design Inspiration:**
 
