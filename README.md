@@ -42,7 +42,7 @@ This project consists of a cheap, self-contained person locator to help you find
 
 *What is the functional and performance requirements for the system?*
 
-Bushwack needs to be:
+This project needs to be:
 
 - A completely homogenous, decentralized position reporting system.
 - A mesh network where the typical communication scheme is NOT all-to-all, but might be.
@@ -127,6 +127,8 @@ Each unit has:
 [LoRa Modems: Semtech SX1272 and SX1276]()
 
 - This uses a spread spectrum technique to significantly increase sensitivity (like GPS!)
+- Useful Blog posts etc:
+  - http://dangerousprototypes.com/2014/07/17/sx1278sx1276-rfm98wrfm96w-lora-module/
 - Price: $13.46 http://modtronix.com/inair9.html
 - Price: $16 for [SX1278 board (433MHz)](https://www.tindie.com/products/DORJI_COM/long-range-semtech-lora-sx1276-sx1278-data-radio-modem-drf1278dm/)  or [SX1276 board (915MHz)](https://www.tindie.com/products/DORJI_COM/868mhz-lora-sx1276-data-radio-modem-drf1276dm/)
 
