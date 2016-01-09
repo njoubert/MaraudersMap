@@ -27,10 +27,10 @@ This project consists of a cheap, self-contained person locator to help you find
 
 **Other Ideas**
 
-- This project can include a visual component - by animating EL wire or the like as you get closer to a friend!
+- **Visual Component**  animating EL wire or the like as you get closer to a friend! Or letting you shoot lightrays to a person!
 - **Lying?** - What if the system only gives you a true value part of the time? What if it deliberately lies?
 - **Only works part of the time?** - What if you can't always use the system, you have to wait for it to become active?
-
+- **Doesn't tell you which person you're walking towards**
 
 
 
