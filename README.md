@@ -89,6 +89,18 @@ Each unit has:
 #### Suggested System Architecture
 
 
+**Draft BoM Rev 1**
+
+| Unit                    | Source        | Qty | Price  |
+| ------------------------|---------------|-----|--------|
+| RPi Zero                | ?             | 1   | $5     |
+| SX1276                  | Modtronix     | 1   | $13.46 |
+| 0.96" OLED              | Amazon        | 1   | $12.98 |
+| Neo-6M GPS w Compass    | ebay          | 1   | $16.13 |
+| 4gb microSD card        | amazon        | 1   | $2.73  |
+| ------------------------|---------------|-----|--------|
+|                         |               |     | $50.3  |
+
 
 
 **Raspberry Pi Zero as command center.**
