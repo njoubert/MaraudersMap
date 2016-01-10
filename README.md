@@ -141,7 +141,7 @@ Each unit has:
 - This uses a spread spectrum technique to significantly increase sensitivity (like GPS!)
 - Useful Blog posts etc:
   - http://dangerousprototypes.com/2014/07/17/sx1278sx1276-rfm98wrfm96w-lora-module/
-- Price: $13.46 http://modtronix.com/inair9.html
+- Price: $13.46 [inAir9](http://modtronix.com/inair9.html) with expected range of [4km in urban environments](http://forum.modtronix.com/index.php?topic=2222.0)
 - Price: $16 for [SX1278 board (433MHz)](https://www.tindie.com/products/DORJI_COM/long-range-semtech-lora-sx1276-sx1278-data-radio-modem-drf1278dm/)  or [SX1276 board (915MHz)](https://www.tindie.com/products/DORJI_COM/868mhz-lora-sx1276-data-radio-modem-drf1276dm/)
 - [HopeRF implementation](http://www.hoperf.com/rf_transceiver/lora/)
 
