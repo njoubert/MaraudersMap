@@ -41,6 +41,7 @@ This project consists of a cheap, self-contained person locator to help you find
 - **Lying?** - What if the system only gives you a true value part of the time? What if it deliberately lies?
 - **Only works part of the time?** - What if you can't always use the system, you have to wait for it to become active?
 - **Doesn't tell you which person you're walking towards**
+- **Exchanging physical tokens to track people?** - What if your device comes with 10 little "chips" that represent your location, and you have to exchange them with other people so they can track you and you can track them?
 
 
 
