@@ -176,10 +176,13 @@ Each unit has:
 - Price: $11 to $17
 - 9600 baud serial out
 
+**Power System**
 
-**Battery Power**
+Alkaline Batteries?
 
-**Solar Power**
+Rechargeable Battery Power?
+
+Solar Power?
 
 
 
