@@ -10,7 +10,7 @@
   One: Helping you find what you're looking for 
        "achieve your goals", one might say
 
-  Two: Create a space for serendipidy, immediacy, and impomtu adventure 
+  Two: Create a space for serendipidy, immediacy, and impromptu adventure 
        "discovering the unexpected", one might say.
 ```
 
