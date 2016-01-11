@@ -2,7 +2,11 @@
 
 ```WELCOME! THIS IS AN EXPERIMENTAL, UNTESTED, IN-PROGRESS PRE-ALPHA PROJECT! THAT BE DRAGONS AHEAD YET LADDY!```
 
+Marauder's Map is an exploration of building technology that toes a fine line between two seemingly opposite ideals:
 
+One: Helping you find what you're looking for ("achieve your goals", one might say).
+
+Two: Create a space for serendipidy, immediacy, and impomtu adventure ("discovering the unexpected", one might say).
 
 
 <br/>
