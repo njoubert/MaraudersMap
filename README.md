@@ -107,10 +107,10 @@ Each unit has:
 | RPi Zero                | ?             | 1   | $5     |
 | SX1276 radio module     | Modtronix     | 1   | $13.46 |
 | 0.96" OLED display      | ebay          | 1   | $5.99  |
-| Neo-6M GPS w Compass    | ebay          | 1   | $16.13 |
+| Neo-6M GPS w Compass    | ebay          | 1   | $13.60 |
 | 4gb microSD card        | amazon        | 1   | $2.73  |
 | ------------------------|---------------|-----|--------|
-|                         |               |     | $43.31 |
+|                         |               |     | $40.88 |
 
 
 
