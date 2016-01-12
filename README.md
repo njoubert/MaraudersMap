@@ -106,11 +106,11 @@ Each unit has:
 | ------------------------|---------------|-----|--------|
 | RPi Zero                | ?             | 1   | $5     |
 | SX1276 radio module     | Modtronix     | 1   | $13.46 |
-| 0.96" OLED display      | Amazon        | 1   | $12.98 |
+| 0.96" OLED display      | ebay          | 1   | $5.99  |
 | Neo-6M GPS w Compass    | ebay          | 1   | $16.13 |
 | 4gb microSD card        | amazon        | 1   | $2.73  |
 | ------------------------|---------------|-----|--------|
-|                         |               |     | $50.3  |
+|                         |               |     | $43.31 |
 
 
 
@@ -126,9 +126,9 @@ Each unit has:
 
 **Displays**
 
-[OLED: 128x64 yellow and blue 0.96"](http://www.amazon.com/gp/product/B00O2LLT30?keywords=arduino%20oled&qid=1451557496&ref_=sr_1_1&sr=8-1):
+OLED: 128x64 yellow and blue 0.96"[Amazon](http://www.amazon.com/gp/product/B00O2LLT30?keywords=arduino%20oled&qid=1451557496&ref_=sr_1_1&sr=8-1), [ebay](http://www.ebay.com/itm/3-5V-0-96-SPI-Serial-128X64-OLED-LCD-LED-Display-Module-for-Arduino-/171756285171?hash=item27fd78ecf3:g:facAAOSw~otWgkoi)
 
-- Price: $15
+- Price: $5.99, $15
 - SSD1306 SPI controller
 - 8 lines of text, 22 characters wide (176 characters total)
 
