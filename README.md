@@ -14,6 +14,13 @@
        "discovering the unexpected", one might say.
 ```
 
+<br/>
+## Some Terminology and Conventions
+
+For our design process, we're borrowing terms from the US Government's Design Review System. "Mission Concept Review", "System Requirements Review", and "System Design Review" leading to a "Preliminary Design Review" and a "Critical Design Review". The first 3 we do upfront, once we have a preliminary design we do a PDR, and once we're ready to go to manufacturing, we do a CDR.
+
+As for the actual manufactured artifact, we're using three main stages: Engineering Validation Test (EVT), Design Validation Test (DVT) and Production Validation Test (PVT). Initially we're just getting to a place where the functionality works. After that we become concerned with physical design and finally the artifact itself.
+
 
 <br/>
 ## MCR - Mission Concept Review
