@@ -16,13 +16,13 @@
 **GPS UART:**
 
 | Pin | Signal   | Volt  | 
-|=====|========  |=======|
+|-----|--------  |-------|
 | 1   | VCC      | +5V   |
 | 2   | RX (IN)  | +3.3V |
 | 3   | TX (OUT) | +3.3V |
 | 4   | RST (OUT)| +3.3V |
 | 5   | CTS (IN) | +3.3V |
-| 6   | GND      | -     |
+| 6   | GND      | GND   |
 
 
 ``` Check that I got the RX/TX order right! ~~~
@@ -30,11 +30,11 @@
 **Compass I2C:**
 
 | Pin | Signal | Volt  |
-|=====|========|=======|
+|-----|--------|-------|
 | 1   | VCC    | +5V   |
 | 2   | SCL    | +3.3V |
 | 3   | SDA    | +3.3V |
-| 4   | GND    | -     |
+| 4   | GND    | GND   |
 
 [Details here.](https://pixhawk.org/modules/pixhawk)
 
