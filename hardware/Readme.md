@@ -4,6 +4,11 @@
 
 ### HopeRF 
 
+![HopeRF PCB](https://raw.githubusercontent.com/njoubert/MaraudersMap/master/hardware/images/HopeRF-RFM95W-pcb.png)
+
+![HopeRF CAD](https://raw.githubusercontent.com/njoubert/MaraudersMap/master/hardware/images/HopeRF-RFM95W-cad.png)
+
+
 ## Raspberry Pi
 
 ### GPIO Pinout
