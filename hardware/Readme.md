@@ -36,6 +36,10 @@
 | 3   | SDA    | +3.3V |
 | 4   | GND    | -     |
 
+[Details here.](https://pixhawk.org/modules/pixhawk)
+
+Connectors are Hirose DF13 6pos ([Digi-Key Link: DF13A-6P-1.25H(20)](https://www.digikey.com/product-search/en?WT.z_header=search_go&lang=en&site=us&keywords=DF13A-6P-1.25H(20)&x=0&y=0)) or 4pos. ([Digi-Key Link: DF13A-4P-1.25H(20)](https://www.digikey.com/product-search/en?WT.z_header=search_go&lang=en&site=us&keywords=DF13A-4P-1.25H(20)&x=0&y=0))
+
 
 
 
