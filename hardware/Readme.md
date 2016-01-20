@@ -25,7 +25,7 @@
 | 6   | GND      | GND   |
 
 
-``` Check that I got the RX/TX order right! ~~~
+``` Check that I got the RX/TX order right! ```
 
 **Compass I2C:**
 
