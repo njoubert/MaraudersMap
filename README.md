@@ -120,8 +120,9 @@ Each unit has:
 |                         |               |     | $40.88 |
 
 
+** Small Embedded Computer **
 
-**Raspberry Pi Zero as command center.**
+*Raspberry Pi Zero as command center.*
 
 [Specs:](http://www.raspberrypi-spy.co.uk/2015/11/introducing-the-raspberry-pi-zero/)
 
@@ -130,6 +131,14 @@ Each unit has:
 - Low Power: 160mA power draw
 - Tiny: 65mm x 30mm x 5mm, 9g
 - [Good Peripherals](http://elinux.org/RPi_Low-level_peripherals): [SPI Bus](https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md), two I2C buses, a Display Serial Interface connector, and HDMI out
+
+*STM32 board*
+
+[Specs](http://www.mouser.com/ProductDetail/STMicroelectronics/STM32VLDISCOVERY/?qs=%2fha2pyFaduipj54b2yiocvG8C3d30WMaeLqL6x14%252bec%3d)
+
+- Price: $9.88
+
+See all the [dev boards Mouser supplies here.](http://www.mouser.com/Embedded-Solutions/Engineering-Tools/Embedded-Development-Tools/Embedded-Processor-Development-Kits/Development-Boards-Kits-ARM/_/N-cxd2t/?Ns=Pricing|0)
 
 **Displays**
 
