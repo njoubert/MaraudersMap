@@ -49,9 +49,14 @@ Connectors are Hirose DF13 6pos ([Digi-Key Link: DF13A-6P-1.25H(20)](https://www
 
 ![RaspbPi GPIO](https://raw.githubusercontent.com/njoubert/MaraudersMap/master/hardware/images/Raspberry-Pi-GPIO-Layout-Model-B-Plus-small.png)
 
+
 ## Useful Resources 
 
 - [Niels' Raspberry Pi Christmas Adventure](https://github.com/njoubert/RaspberryPiChristmasCodingAdventure)
+
+**Reference Designs**
+
+- https://www.olimex.com/
 
 ## Sourcing
 
@@ -66,4 +71,3 @@ Connectors are Hirose DF13 6pos ([Digi-Key Link: DF13A-6P-1.25H(20)](https://www
 **PCBs**
 
 - [SEEED Studio](https://www.seeedstudio.com/service/index.php?r=pcb)
-
