@@ -8,6 +8,7 @@
 **Reference Designs**
 
 - https://www.olimex.com/
+- [STM32 Nucleo and Discover boards](http://www.st.com/web/en/catalog/mmc/FM141/SC1169?sc=stm32)
 
 ## Sourcing
 
