@@ -230,6 +230,8 @@ Solar Power?
 
 [Teenage Engineering's PO-16 synth](https://www.teenageengineering.com/products/po)
 
+[Lisa/S Autopilot](http://1bitsquared.com/collections/autopilots/products/lisa-s)
+
 **Other Resources:**
 
 [Design Review Cycle](https://en.wikipedia.org/wiki/Design_review_(U.S._government)#System_Requirements_Review_.28SRR.29)
