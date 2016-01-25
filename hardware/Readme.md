@@ -52,3 +52,18 @@ Connectors are Hirose DF13 6pos ([Digi-Key Link: DF13A-6P-1.25H(20)](https://www
 ## Useful Resources 
 
 - [Niels' Raspberry Pi Christmas Adventure](https://github.com/njoubert/RaspberryPiChristmasCodingAdventure)
+
+## Sourcing
+
+**Components**
+
+- [OctoPart](https://octopart.com/)
+- [Digikey]()
+- [Mouser]()
+- [Jameco (local pickup in bay area)]()
+ 
+
+**PCBs**
+
+- [SEEED Studio](https://www.seeedstudio.com/service/index.php?r=pcb)
+
