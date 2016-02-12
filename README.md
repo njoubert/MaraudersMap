@@ -228,7 +228,7 @@ Solar Power?
 
 **Product Design Inspiration:**
 
-[goTenna cellphone radio system](http://www.gotenna.com/index)
+[goTenna cellphone radio system](http://www.gotenna.com/index) and [teardown](https://learn.adafruit.com/gotenna-teardown/inside-gotenna)
 
 [Teenage Engineering's PO-16 synth](https://www.teenageengineering.com/products/po)
 
