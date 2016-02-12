@@ -228,6 +228,8 @@ Solar Power?
 
 **Product Design Inspiration:**
 
+[goTenna cellphone radio system](http://www.gotenna.com/index)
+
 [Teenage Engineering's PO-16 synth](https://www.teenageengineering.com/products/po)
 
 [Lisa/S Autopilot](http://1bitsquared.com/collections/autopilots/products/lisa-s)
