@@ -13,4 +13,9 @@ Easy to wire up. all MOSI and all MISO connects to each other. No TX goes to RX 
 |Gnd |0V    |
 
 
-Connect a random GPIO pin on FTDI to the Chip Select.
+Notice we connect a random GPIO pin on FTDI to the Chip Select.
+
+
+**Radio needs 3.3V to run.**
+
+How do we get 3.3V to supply the radio?
