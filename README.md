@@ -52,6 +52,10 @@ This project consists of a cheap, self-contained person locator to help you find
 - **A completely analog, physical UI?** - what if it had a big analog compass, an analog set of lights (or a simple multi-segment display), something with NO "screen"?
 
 
+Design Idea:
+- **Watch/Arm-mounted Bracelet** so it's hands free! 
+- **Make it the LED/EL Wire driver**
+
 <br/>
 ## SRR - System Requirements Review
 
