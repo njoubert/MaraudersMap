@@ -222,6 +222,11 @@ Solar Power?
 ## Resources and Inspiration
 
 
+**Related Burning Man Projects:**
+
+[Everything by Bunny Studios (Andrew Huang)](http://www.bunniestudios.com/blog/?tag=burning-man)
+done as part of The Phage, including [Dr Brainlove Art Car](http://drbrainlove.tumblr.com/post/124592528476/brain-whisperers-aka-communicator-badges)
+
 
 
 **System Design Inspiration:**
