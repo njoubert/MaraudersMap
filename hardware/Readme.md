@@ -1,5 +1,9 @@
 # Marauder's Map Hardware
 
+Some Advice on Circuit Design:
+
+- Lay out a board with everything, and connectors, even if you don't populate it. Build it so that you don't have to have everything populated for it to work, and you can bypass any onboard circuit by plugging into connectors.
+- Work from reference designs, and copy other people's boards.
 
 ## Useful Resources 
 

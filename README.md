@@ -52,6 +52,10 @@ This project consists of a cheap, self-contained person locator to help you find
 - **A completely analog, physical UI?** - what if it had a big analog compass, an analog set of lights (or a simple multi-segment display), something with NO "screen"?
 
 
+Design Idea:
+- **Watch/Arm-mounted Bracelet** so it's hands free! 
+- **Make it the LED/EL Wire driver**
+
 <br/>
 ## SRR - System Requirements Review
 
@@ -218,6 +222,11 @@ Solar Power?
 ## Resources and Inspiration
 
 
+**Related Burning Man Projects:**
+
+[Everything by Bunny Studios (Andrew Huang)](http://www.bunniestudios.com/blog/?tag=burning-man)
+done as part of The Phage, including [Dr Brainlove Art Car](http://drbrainlove.tumblr.com/post/124592528476/brain-whisperers-aka-communicator-badges)
+
 
 
 **System Design Inspiration:**
@@ -227,6 +236,8 @@ Solar Power?
 [Henry Hellam and co.'s Girl Tech IM-ME Hack for a previous Burn](https://github.com/henryhallam/puellaardens)
 
 **Product Design Inspiration:**
+
+[goTenna cellphone radio system](http://www.gotenna.com/index) and [teardown](https://learn.adafruit.com/gotenna-teardown/inside-gotenna)
 
 [Teenage Engineering's PO-16 synth](https://www.teenageengineering.com/products/po)
 
