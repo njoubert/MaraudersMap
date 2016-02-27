@@ -18,3 +18,11 @@ spi = FT232H.SPI(ft232h, cs=8, max_speed_hz=3000000, mode=0, bitorder=FT232H.MSB
  
 # Write three bytes (0x01, 0x02, 0x03) out using the SPI protocol.
 spi.write([0x01, 0x02, 0x03])
+
+# Read 3 bytes of data using the SPI protocol.
+response = spi.read(3)
+print 'Received {0}'.format(response)
+ 
+# Write 3 bytes and simultaneously read 3 bytes using the SPI protocl.
+response = spi.transfer([0x01, 0x02, 0x03])
+print 'Received {0}'.format(response)
