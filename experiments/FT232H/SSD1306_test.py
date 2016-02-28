@@ -44,17 +44,19 @@ ft232h = FT232H.FT232H()
  
 # Create a SPI interface from the FT232H using pin 8 (C0) as chip select.
 # Use a clock speed of 3mhz, SPI mode 0, and most significant bit first.
-spi = FT232H.SPI(ft232h, cs=8)
+spi = FT232H.SPI(ft232h, cs=8, max_speed_hz=64000000, mode=0, bitorder=FT232H.MSBFIRST)
 
 # Initialize display
-disp = SSD1306.SSD1306_128_32(9, 10, spi=spi, gpio=ft232h)
+disp = SSD1306.SSD1306_128_64(9, 10, spi=spi, gpio=ft232h)
 
 # Initialize library.
 disp.begin()
  
 # Clear display.
 disp.clear()
+
 disp.display()
+disp.set_contrast(255)
 
 # Create blank image for drawing.
 # Make sure to create image with mode '1' for 1-bit color.
@@ -70,29 +72,31 @@ draw = ImageDraw.Draw(image)
 # draw.line((68,22,81,2), fill=255)
 # draw.line((68,2,81,22), fill=255)
 
-# font = ImageFont.load_default()
+font = ImageFont.load_default()
 # draw.text((5,20), y, font=font, fill=255)
 
+w = 16
+h = 16
 yoff = 10
 xoff = 0
-xmax = 100
-ymax = 28
+xmin = 1
+xmax = 127 - w
+ymin = 16
+ymax = 63 - h
 right = True
 down = True
+
 try:
   while True:
 
 
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0,0,width,height), outline=0, fill=0)
-
     if xoff > xmax:
       right = False
-    elif xoff < 0:
+    elif xoff < xmin:
       right = True
     if yoff > ymax:
       down = False
-    elif yoff < 0:
+    elif yoff < ymin:
       down = True
 
     if right:
@@ -104,10 +108,23 @@ try:
     else:
       yoff -= 1 
 
-    draw.ellipse((xoff,yoff,xoff+16,yoff+8), outline=0, fill=255)
+
+    draw.ellipse((xoff,yoff,xoff+16,yoff+16), outline=0, fill=255)
+
+    #draw.rectangle((0,0,128,15), fill=255)
+
+    draw.line((0,0,127,0), fill=255)
+    draw.line((127,0,127,63), fill=255)
+    draw.line((0,63,127,63), fill=255)
+    draw.line((0,0,0,63), fill=255)
+    draw.line((0,15,127,15), fill=255)
+    draw.line((0,16,127,16), fill=255)
+    
+    draw.text((0,2), " HEADED FOR ADVENTURE", font=font, fill=255)
 
     disp.image(image)
     disp.display()
-    #time.sleep(0.1)
+    time.sleep(0.01)
+
 except KeyboardInterrupt:
   pass
