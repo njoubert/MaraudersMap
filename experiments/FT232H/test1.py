@@ -79,6 +79,30 @@ def transmit(radio, msg=[0x50, 0x69, 0x6E, 0x67]):
   print radio.get_irq_flags()
 
 
+def receive_loop(radio):
+  radio.reset_ptr_rx()
+  radio.set_max_payload_length(255)
+
+  try:
+    while True:
+      radio.set_mode(MODE.RXCONT)
+
+      time.sleep(0.1)
+
+      flags = radio.get_irq_flags()
+      if flags['rx_done']:
+        payload = radio.read_payload(nocheck=True)
+        if payload is not None:
+          print "Received: ", payload
+        else:
+          print "I thought I received, but I couldn't extract message"
+        # Clear the IRQs        
+        radio.spi.transfer([REG.LORA.IRQ_FLAGS | 0x80, 0xFF])[1]
+
+        
+  except KeyboardInterrupt:
+    return
+
 def receive(radio):
   radio.reset_ptr_rx()
   radio.set_mode(MODE.RXCONT)
@@ -88,12 +112,11 @@ def receive(radio):
 
   #radio.set_mode(MODE.STDBY)
 
-  print "IRQ Flags:"
   print radio.get_irq_flags()
 
   payload = radio.read_payload(nocheck=True)
   if payload is not None:
-    print "Received: ", binascii.hexlify(payload)
+    print "Received: ", payload
   else:
     print "Nothing Receveived"
 
@@ -122,7 +145,7 @@ def main():
   if a == "T":
     transmit(radio)
   elif a == "R":
-    receive(radio)
+    receive_loop(radio)
   else:
     print "Unknown command:", a
 
