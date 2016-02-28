@@ -44,7 +44,7 @@ ft232h = FT232H.FT232H()
  
 # Create a SPI interface from the FT232H using pin 8 (C0) as chip select.
 # Use a clock speed of 3mhz, SPI mode 0, and most significant bit first.
-spi = FT232H.SPI(ft232h, cs=8, max_speed_hz=64000000, mode=0, bitorder=FT232H.MSBFIRST)
+spi = FT232H.SPI(ft232h, cs=8, mode=0, bitorder=FT232H.MSBFIRST)
 
 # Initialize display
 disp = SSD1306.SSD1306_128_64(9, 10, spi=spi, gpio=ft232h)
@@ -56,7 +56,6 @@ disp.begin()
 disp.clear()
 
 disp.display()
-disp.set_contrast(255)
 
 # Create blank image for drawing.
 # Make sure to create image with mode '1' for 1-bit color.
@@ -66,6 +65,14 @@ image = Image.new('1', (width, height))
  
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
+
+# draw.rectangle((0,0,127,63), fill=255)
+# disp.image(image)
+# disp.display()
+
+# raw_input("Ready? ")
+
+draw.rectangle((0,0,127,63), fill=0)
 
 # draw.rectangle((24,2,44,22), outline=0, fill=255)
 # draw.polygon([(46,22), (56,2), (66,22)], outline=0, fill=255)
@@ -124,7 +131,7 @@ try:
 
     disp.image(image)
     disp.display()
-    time.sleep(0.01)
+    #time.sleep(0.01)
 
 except KeyboardInterrupt:
   pass
