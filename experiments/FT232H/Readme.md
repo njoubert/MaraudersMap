@@ -7,6 +7,12 @@ https://github.com/intel-iot-devkit/mraa
 
 NetBlocks: http://www.netblocks.eu/
 
+Interesing Modules from Libelium:
+
+https://www.cooking-hacks.com/documentation/tutorials/extreme-range-lora-sx1272-module-shield-arduino-raspberry-pi-intel-galileo
+
+XBee-socket SX1276: https://www.cooking-hacks.com/sx1272-lora-module-for-arduino-raspberry-pi-intel-galileo-868-mhz
+
 ## Understanding WTF is going on with FT232H and Python
 
 `libftdi1` is an open-source C driver for FTDI. It uses SWIG to auto-generate bindings to the C interface.
