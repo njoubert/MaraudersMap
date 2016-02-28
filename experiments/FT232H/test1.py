@@ -86,12 +86,12 @@ def receive(radio):
   print "Waiting 2 seconds for receive..."
   time.sleep(2.0)
 
-  radio.set_mode(MODE.STDBY)
+  #radio.set_mode(MODE.STDBY)
 
   print "IRQ Flags:"
   print radio.get_irq_flags()
 
-  payload = radio.read_payload()
+  payload = radio.read_payload(nocheck=True)
   if payload is not None:
     print "Received: ", binascii.hexlify(payload)
   else:

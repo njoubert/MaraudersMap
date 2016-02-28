@@ -5,6 +5,7 @@ intel's libraries for embedded computing. even includes SX1276 drivers:
 http://iotdk.intel.com/docs/master/upm/modules.html
 https://github.com/intel-iot-devkit/mraa
 
+NetBlocks: http://www.netblocks.eu/
 
 ## Understanding WTF is going on with FT232H and Python
 
