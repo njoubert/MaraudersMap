@@ -66,12 +66,7 @@ def transmit(radio, msg=[0x50, 0x69, 0x6E, 0x67]):
 
   radio.set_mode(MODE.STDBY)
   radio.set_pa_config(pa_select=0)
-
-  radio.set_payload_length(len(msg))
-  base_addr = radio.get_fifo_tx_base_addr()
-  radio.set_fifo_addr_ptr(base_addr)
-
-  radio.spi.transfer([REG.LORA.FIFO | 0x80] + msg)[1:]
+  radio.write_payload(msg)
   radio.set_mode(MODE.TX)  # send PING
   print "send PING"
 
@@ -85,19 +80,22 @@ def transmit(radio, msg=[0x50, 0x69, 0x6E, 0x67]):
 
 
 def receive(radio):
-
-  radio.set_mode(MODE.STDBY)
-  radio.set_pa_config(pa_select=0)
+  radio.reset_ptr_rx()
+  radio.set_mode(MODE.RXCONT)
 
   print "Waiting 2 seconds for receive..."
   time.sleep(2.0)
+
+  radio.set_mode(MODE.STDBY)
 
   print "IRQ Flags:"
   print radio.get_irq_flags()
 
   payload = radio.read_payload()
-  print "Received: ", binascii.hexlify(payload)
-
+  if payload is not None:
+    print "Received: ", binascii.hexlify(payload)
+  else:
+    print "Nothing Receveived"
 
 
 def main():
