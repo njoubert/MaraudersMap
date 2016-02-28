@@ -119,7 +119,7 @@ def main():
   print "IRQ Flags:"
   print radio.get_irq_flags()
 
-  a = raw_input("Transmit [T] or Receive [R]?")
+  a = raw_input("Transmit [T] or Receive [R]? ")
 
   if a == "T":
     transmit(radio)
