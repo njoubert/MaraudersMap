@@ -80,6 +80,9 @@ def transmit(radio, msg="PING"):
   while radio.get_irq_flags()['tx_done'] != 1:
       time.sleep(0.1)
 
+  # Clear all IRQ flags
+  radio.spi.transfer([REG.LORA.IRQ_FLAGS | 0x80, 0xFF])[1]
+
   radio.set_mode(MODE.STDBY)
 
 def receive(radio):
