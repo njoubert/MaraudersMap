@@ -141,7 +141,7 @@ def main():
   radio = LoRa(spi=spi, verbose=False)
   radio.set_freq(915)
 
-  #print radio
+  print radio
 
   a = raw_input("Transmit [T], Ping [P] or Receive [R]? ")
 

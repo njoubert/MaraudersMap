@@ -133,3 +133,51 @@ Worked fine. Now load the right KEXT:
 	Python version        : 2.7.6
 	OS platform           : Darwin-14.3.0-x86_64-i386-64bit
 
+
+### Attempting to get multiple FT232H working on the same laptop
+
+Looks like the adafruit FT232H module ships without a serial number programmed: https://forums.adafruit.com/viewtopic.php?f=19&p=416127#p416127
+
+I'm getting errors attempting to run the following code:
+
+	sudo python
+	import Adafruit_GPIO.FT232H as FT232H
+	FT232H.enable_FTDI_driver()
+	FT232H.enumerate_device_serials()
+
+	TypeError: in method 'list_free', argument 1 of type 'struct ftdi_device_list **'
+
+OK, time to get busy with FT_PROG
+
+Boot up a Windows VM
+
+[Install FT_PROG from FTDI](http://www.ftdichip.com/Support/Utilities.htm)
+
+[Follow these instructions](https://learn.adafruit.com/adafruit-ft232h-breakout/more-info)
+
+Ugh doesn't wanna read anything
+
+Switching to Linux, boot VM
+
+Install ftdi-eeprom:
+
+	sudo apt-get install ftdi-eeprom
+
+Now, ERASE the EEPROM:
+
+	echo "vendor_id=0x403
+	product_id=0x6014
+	filename="eeprom.bin"" > config.conf
+
+	ftdi_eeprom --erase-eeprom config.conf
+
+Unplug to reboot board, plug back in, and switch back to windows.
+
+Open FT-PROG, Hit the Scan button (magnifying glass). It should pop up
+
+Go to "USB String Descriptors" and disable "Auto Generate Serial No" and type in a manual serial.
+
+Then hit the flash button!
+
+Now, enumerate_devices work!
+

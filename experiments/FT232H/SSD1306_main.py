@@ -127,7 +127,8 @@ try:
     draw.line((0,15,127,15), fill=255)
     draw.line((0,16,127,16), fill=255)
     
-    draw.text((0,2), " HEADED FOR ADVENTURE", font=font, fill=255)
+    #draw.text((0,2), " HEADED FOR ADVENTURE", font=font, fill=255)
+    draw.text((0,2), "     HELLO IRIS! ", font=font, fill=255)
 
     disp.image(image)
     disp.display()
