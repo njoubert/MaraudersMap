@@ -15,6 +15,13 @@
 ```
 
 <br/>
+## Intetion: This is an Art Project
+
+Marauder's Map is a project, not to quickly build out a product or produce new research results. The intent in creating this is to take part in the act of creation for aesthetic and exploration purposes. There are many pictures of mountains. I want to paint my own, not hang yours. 
+
+In doing this, we'll learn a lot - new skills and a new appreciation for what others have produced. Once on-playa, we'll learn a lot about technology's relationship to people. Collecting this knowledge is the second intent of doing this project.
+
+<br/>
 ## Some Terminology and Conventions
 
 For our design process, we're borrowing terms from the US Government's Design Review System. "Mission Concept Review", "System Requirements Review", and "System Design Review" leading to a "Preliminary Design Review" and a "Critical Design Review". The first 3 we do upfront, once we have a preliminary design we do a PDR, and once we're ready to go to manufacturing, we do a CDR.
