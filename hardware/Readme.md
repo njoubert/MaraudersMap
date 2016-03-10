@@ -33,16 +33,35 @@ Some Advice on Circuit Design:
 
 ### Different SX127x offerings:
 
-| Model | Freq        | Bandwidth (Khz)  | Spreading Factor | Eff. Bitrate (kbps) | Sensitivity (dBm) |
-|-------|-------------|------------------|------------------|---------------------|-------------------|
-|SX1272 | 860-1020Mhz | 125, 250, 500    | 6-12             | 0.24 - 37.5         |-117 to -137       |
-|SX1273 | 860-1020Mhz | 125, 250, 500    | 6-9              | 1.7 - 37.5          |-117 to -130       |
-|SX1276 | 137-1020Mhz | 7.8 - 500        | 6-12             | 0.18 - 37.5         |-111 to -148       |
-|SX1277 | 137-1020Mhz | 7.8 - 500        | 6-9              | 0.11 - 37.5         |-111 to -139       |
-|SX1278 | 137-525Mhz  | 7.8 - 500        | 6-12             | 0.18 - 37.5         |-111 to -148       |
-|SX1279 | 137-960Mhz  | 7.8 - 500        | 6-12             | 0.18 - 37.5         |-111 to -148       |
+Supported modulation: LORA, FSK, OOK
 
+| Model | Freq        | Bandwidth (Khz)  | Spreading Factor | Eff. Bitrate (kbps) | Sensitivity (dBm) | Power Out (dBm) |
+|-------|-------------|------------------|------------------|---------------------|-------------------|-----------------|
+|SX1272 | 860-1020Mhz | 125, 250, 500    | 6-12             | 0.24 - 37.5         |-117 to -137       | +14 RFO, +20 PA |
+|SX1273 | 860-1020Mhz | 125, 250, 500    | 6-9              | 1.7 - 37.5          |-117 to -130       | +14 RFO, +20 PA |
+|SX1276 | 137-1020Mhz | 7.8 - 500        | 6-12             | 0.18 - 37.5         |-111 to -148       | +14 RFO, +20 PA |
+|SX1277 | 137-1020Mhz | 7.8 - 500        | 6-9              | 0.11 - 37.5         |-111 to -139       | +14 RFO, +20 PA |
+|SX1278 | 137-525Mhz  | 7.8 - 500        | 6-12             | 0.18 - 37.5         |-111 to -148       | +14 RFO, +20 PA |
+|SX1279 | 137-960Mhz  | 7.8 - 500        | 6-12             | 0.18 - 37.5         |-111 to -148       | +14 RFO, +20 PA |
 
+Sensitivity vs Throughput
+
+### Si443x comparison (3DR Radio module)
+
+Supported modulation: GFSK, FSK, OOK
+
+| Model | Freq        | Bandwidth (Khz)  | Spreading Factor | Eff. Bitrate (kbps) | Sensitivity (dBm) | Power Out (dBm) |
+|-------|-------------|------------------|------------------|---------------------|-------------------|-----------------|
+| Si4430| 900-960Mhz  | +-0.615 - +-320  |                NA| 0.123-256kbps       | -102 to -121      | +13 |
+| Si4431| 240-930Mhz  | +-0.615 - +-320  |                NA| 0.123-256kbps       | -102 to -121      | +13 |
+| Si4432| 240-930Mhz  | +-0.615 - +-320  |                NA| 0.123-256kbps       | -102 to -121      | +20 |
+
+| Sensitivity | Throughput | Bandwidth |
+|-------------|------------|-----------|
+| -121        | 2kbps      | +- 5Khz   |
+| -108        | 40kbps     | +- 20Khz  |
+| -104        | 100kbps    | +- 50Khz  |
+| -101        | 125kbps    | +- 62.5Khz|
 
 
 ### HopeRF 
