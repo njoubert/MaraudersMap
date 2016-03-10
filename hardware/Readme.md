@@ -46,6 +46,8 @@ Supported modulation: LORA, FSK, OOK
 
 Sensitivity vs Throughput
 
+![Sensitivity vs Throughput]()
+
 ### Si443x comparison (3DR Radio module)
 
 Supported modulation: GFSK, FSK, OOK
