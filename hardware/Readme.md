@@ -33,6 +33,8 @@ Some Advice on Circuit Design:
 
 ### Different SX127x offerings:
 
+Also see docs of [HM-TLRL](http://www.geeetech.com/wiki/index.php/HM-TRLR-S_Series_100mW_LoRa_Transceiver#Set_up_Sync_Word)
+
 Supported modulation: LORA, FSK, OOK
 
 | Model | Freq        | Bandwidth (Khz)  | Spreading Factor | Eff. Bitrate (kbps) | Sensitivity (dBm) | Power Out (dBm) |
