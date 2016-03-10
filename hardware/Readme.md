@@ -67,6 +67,21 @@ Supported modulation: GFSK, FSK, OOK
 | -104        | 100kbps    | +- 50Khz  |
 | -101        | 125kbps    | +- 62.5Khz|
 
+### TI CC1xx comparison
+
+CC1110/CC1111 sub-1Ghz radio with 8051 onboard MCU
+
+Supported modulation: GFSK, FSK, MSK, 2-FSK
+
+
+| Model | Freq        | Bandwidth (Khz)  | Spreading Factor | Eff. Bitrate (kbps) | Sensitivity (dBm) | Power Out (dBm) |
+|-------|-------------|------------------|------------------|---------------------|-------------------|-----------------|
+|CC1110 | 782-928     | 5.2 - 20 Khz     | NA               | 1.2 - 500 KBaud     | -101 to -110      | 10 dBm|
+
+| Sensitivity | Thoughput | Bandwidth |
+|-------------|-----------|-----------|
+| -110        | 1.2kbps   | +- 5.2Khz |
+| -101        | 38.4kbps  | +- 20Khz  |
 
 ### HopeRF 
 
