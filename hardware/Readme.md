@@ -46,7 +46,7 @@ Supported modulation: LORA, FSK, OOK
 
 Sensitivity vs Throughput
 
-![Sensitivity vs Throughput]()
+![Sensitivity vs Throughput](https://raw.githubusercontent.com/njoubert/MaraudersMap/master/hardware/images/LORA_Sensitivity_Performance.png)
 
 ### Si443x comparison (3DR Radio module)
 
